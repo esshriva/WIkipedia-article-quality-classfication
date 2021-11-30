@@ -1,0 +1,10 @@
+# WIkipedia-article-quality-classfication
+We offer to apply newer classifiers on an already extended set of features for automated quality assessment of Wikipedia articles based on a blend of established features and edit features to characterize articles and implicitly their quality.  We strive to combine various features proposed in different papers, relevant ones and apply them to the models. Features like readability, structural strength, writing styles and a few others were proposed in the previous line of work. We aim to understand how the established feature set (Structural, readability and already proposed features in previous research work) classifies on newer classifier and deep learning methods available now.  Light Gradient booster (LGB) as a classifier and Transformer as deep-learning approach, on the other hand. We use transformers, a deep learning model that adopts the attention mechanism, differentially weighting the importance of each part of the input data.  It is used principally in natural language processing (NLP) and in computer vision (CV). We warrant that the doc2vec vectors are the crucial feature in the context of the proposed classification task. This research intends to utilize feature engineering and extend the set of previously utilized features. We consolidate these features to identify each article with a Light gradient booster tree approach for classification.  First, we reason that this approach leads to more understandable and transparent outcomes, and secondly, the earlier employed deep learning approaches havethe disadvantage of considerably longer training and computation times.
+
+Objective 1:To extract features from the provided dataset- Structural, readability, writing styles primarily.
+Objective 2:To employ the Light gradient booster as a classifier technique and Transformers as a deep learn-ing approach to evaluate the quality of articles.
+Objective 3:To substantiate these experiments with the previous line of work and analyse the outcomes, ifthe engineered approach in this work is consistent with advancing the Wikipedia article classfication assessment quality.
+
+
+
+
